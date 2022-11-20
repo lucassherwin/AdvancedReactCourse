@@ -54,7 +54,7 @@ $blue-light: #b4d2f4;
 
 /* Font Families */
 $playfair: "Playfair", serif;
-$raleway: "Raleway", "HelveticaNeue", "Helvetica", "Arial", sans-serif;
+$raleway: "Raleway", "HelveticaNeue", "Helvetica", sans-serif;
 
 /* Font Sizes */
 $fs-xs: 0.75rem; // 12px
@@ -117,9 +117,3 @@ $spacing: (
   xxxl: 6rem,
   // 96 px
 ) !default;
-
-
-
-.body {
-  
-}
