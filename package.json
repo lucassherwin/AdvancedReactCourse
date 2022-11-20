@@ -1,0 +1,23 @@
+{
+  "name": "Project1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lucassherwin/AdvancedReactCourse.git",
+  "author": "lucassherwin <lksherwin@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^6.0.3"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "private": true,
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
