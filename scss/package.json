@@ -17,7 +17,8 @@
   },
   "scripts": {
     "lint": "stylelint './**/*.scss'",
-    "lint:fix": "yarn lint --fix"
+    "lint:fix": "yarn lint --fix",
+    "prepare": "cd .. && husky install scss/.husky"
   },
   "husky": {
     "hooks": {
