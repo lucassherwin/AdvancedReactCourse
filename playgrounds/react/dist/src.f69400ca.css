@@ -1,0 +1,91 @@
+/*===============
+  // Variables
+===============*/
+/**
+* TABLE OF CONTENTS
+*
+* COLORS
+* Brand Colors -- These are the main brand colors. They will be used the most
+* Neutral Colors -- White and black, gray scale, secondary colors
+* Utility Colors -- Other colors to represent states: info, warning, success, etc
+*
+* TYPOGRAPHY
+* Font Families -- The fonts used in the design system
+* Font Weights -- Font weights
+* Sizes -- Font sizing for body text, paragraphs, inputs
+* Heading Sizes -- Font sizing for page headings
+*
+* BREAKPOINTS
+* Breakpoints -- Global responsize breakpoints definitions
+*
+* SPACING
+* Spacing -- Global fixed set of spacing variables
+*/
+/*===============
+  // Colors
+===============*/
+/* Brand Colors */
+/* Neutral Colors */
+/* Utility Colors */
+/*===============
+  // Typography
+===============*/
+/* Font Families */
+/* Font Sizes */
+/* Heading Font Sizes */
+/* Font Weights */
+/*===============
+  // Breakpoints
+===============*/
+/*===============
+  // Spacing
+===============*/
+/*=============================================
+=            Foundation - colors              =
+=============================================*/
+/**
+ * This file defines the actual colors that will be used for styling. They will default to the palette
+ * we defined in the _variable.scss file. This is our default palette, and devs can override this
+ * with their own variables.
+ */
+/*=============================================
+=            Global text colors               =
+=============================================*/
+/*=============================================
+=                 Buttons                     =
+=============================================*/
+/*=============================================
+=                 Forms                       =
+=============================================*/
+/*=============================================
+=        Foundation - Typography              =
+=============================================*/
+/**
+ * This file defines the default font sizes to be used on headings and texts. The defaults come
+ * from the palette defined in _variables.scss.
+ */
+/*=============================================
+=            Body font family                  =
+=============================================*/
+/*=============================================
+=            Body font sizes                  =
+=============================================*/
+/*=============================================
+=            Heading font sizes               =
+=============================================*/
+/*=============================================
+=            Head font weights                =
+=============================================*/
+/*===============
+  // Mixins
+===============*/
+.dse-button-container {
+  display: flex;
+  background: var(--dse-btn-primary-bg, #5ece7b);
+  color: var(--dse-btn-primary-color, #fff);
+  border: none;
+  padding: 0.25rem;
+}
+
+
+/*# sourceMappingURL=/src.f69400ca.css.map */
