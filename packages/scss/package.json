@@ -10,6 +10,7 @@
   "devDependencies": {
     "husky": "^8.0.2",
     "lint-staged": "^13.0.3",
+    "nodemon": "^2.0.20",
     "prettier": "^2.7.1",
     "stylelint": "^14.15.0",
     "stylelint-config-prettier": "^9.0.4",
@@ -20,7 +21,8 @@
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix",
     "prepare": "cd .. && husky install scss/.husky",
-    "build": "node src/scripts/build.js"
+    "build": "node src/scripts/build.js",
+    "dev": "nodemon --watch src --exec yarn build -e scss"
   },
   "husky": {
     "hooks": {
@@ -29,5 +31,8 @@
   },
   "lint-staged": {
     "*.scss": "yarn lint:fix"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
