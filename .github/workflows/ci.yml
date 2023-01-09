@@ -12,7 +12,7 @@ jobs:
   builds:
     runs-on: ubuntu-latest
     steps:
-      - use: actions/checkouts@v2
+      - uses: actions/checkouts@v2
       - name: Install dependencies
         run: yarn
       - name: Build packages
