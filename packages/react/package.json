@@ -41,7 +41,6 @@
     "start-storybook": "NODE_OPTIONS=--openssl-legacy-provider start-storybook -p 6006",
     "chromatic": "chromatic --project-token=7962ed500890"
   },
-  "dependencies": {},
   "readme": "ERROR: No README data found!",
   "_id": "@Project1/react@1.0.0",
   "publishConfig": {
