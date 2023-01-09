@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "lib/index.js",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
   "devDependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-env": "^7.20.2",
@@ -45,5 +48,6 @@
   "_id": "@Project1/react@1.0.0",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "eaac51f9cf83aca2dc3c603ed1889236c59dd3f3"
 }

@@ -2,6 +2,10 @@
   "name": "@Project1/scss",
   "version": "1.0.0",
   "main": "index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
   "license": "MIT",
   "dependencies": {
     "node-sass": "^8.0.0",
@@ -34,5 +38,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "eaac51f9cf83aca2dc3c603ed1889236c59dd3f3"
 }
